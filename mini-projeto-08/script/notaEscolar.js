@@ -15,28 +15,26 @@ function mediaAluno(nota){
 
     const media = Math.floor((nota[0] + nota[1] + nota[2]) / 3)
 
-    console.log(media)
-
     switch (true){
 
         case (media <= 59):
-            console.log('F')
+            console.log('F', media)
         break
 
         case (media <= 69):
-            console.log('D')
+            console.log('D', media)
         break
 
         case (media <= 79):
-            console.log('C')
+            console.log('C', media)
         break
 
         case (media <= 89):
-            console.log('B')
+            console.log('B', media)
         break
 
         case(media <= 100):
-            console.log('A')
+            console.log('A',  media)
         break
 
         default: 
